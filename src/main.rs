@@ -28,7 +28,7 @@ fn clear_screen() {
 //}
 
 fn wait() {
-    print!(" (press enter) ");
+    print!(" (press enter to forget) ");
     stdout().flush().unwrap();
     stdin().read(&mut [0]).unwrap();
 }
